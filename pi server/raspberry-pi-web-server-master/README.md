@@ -38,7 +38,7 @@ This is how I built a home web server with a Raspberry Pi, Node JS, and an Expre
 
 	$ sudo apt-get install git
 	
-Fork [this](https://github.com/sean-hill/raspberry-pi-web-server.git) repo so that you can commit your own updates later on, then clone your repo to your Pi.
+Fork [this](https://github.com/arya8831/PI-SERVER-SELFTRY-8831.git) repo so that you can commit your own updates later on, then clone your repo to your Pi.
 
 	$ cd ~/
 	$ git clone <your-forked-url>
@@ -50,7 +50,7 @@ Fork [this](https://github.com/sean-hill/raspberry-pi-web-server.git) repo so th
 	
 Open a browser and go to `<your-pi's-IP>:5000`
 
-You did it! You successfully ran a webserver on your Raspberry Pi. Now what? How about we open up your router to the outside world and setup a deployment method.
+ You successfully ran a webserver on your Raspberry Pi. Now  we open up your router to the outside world and setup a deployment method.
 
 ## Dynamic DNS
 
@@ -81,7 +81,6 @@ You need to enable single port forwarding on your local router. Our webserver is
 
 After saving these port forwarding settings, start up your server with `node server.js`, and you should be able to navigate to `http://<your-domain>.ddns.net:5000` and see our Raspian homepage!
 
-I'd love to get rid of the `:5000` at the end of our url, but unfortunately my ISP restricts access to port `80`, so I can't use a proxy service such as `nginx` at this time to proxy pass through all the requests at port `80` to port `5000`.
 
 ## Automated Deployment
 
