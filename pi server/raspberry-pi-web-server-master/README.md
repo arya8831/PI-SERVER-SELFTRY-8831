@@ -8,7 +8,7 @@ This is how I built a home web server with a Raspberry Pi, Node JS, and an Expre
 3. [Micro SD Card](http://amzn.com/B00DYQYLQQ) (At least 8 GB)
 4. [Case](http://amzn.com/B00MQLB1N6) (Optional)
 
-![Rasberry Pi](https://www.dropbox.com/s/euujwu3nowunjtk/raspberry-pi.jpg?dl=1)
+
 
 ## Hardware
 
@@ -89,7 +89,7 @@ Well, you've done it, you can successfully view a webpage hosted on your raspber
 
 ### PM2
 
-I ❤️ [pm2](https://github.com/Unitech/pm2). It's a great module to deploy your nodejs applications. First let's install it on both your computer and your raspberry pi.
+ check out (https://github.com/Unitech/pm2). It's a great module to deploy your nodejs applications. First let's install it on both your computer and your raspberry pi.
 
 	$ sudo npm install -g pm2
 	
